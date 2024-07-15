@@ -1,5 +1,3 @@
-Here is an updated `README.md` file tailored for a Jupyter Notebook:
-
 # Solarpark investor analysis
 
 This project performs web scraping, text processing, and sentiment analysis using Python. It utilizes several libraries such as `BeautifulSoup`, `TextBlob`, `spaCy`, and `requests`.
