@@ -1,7 +1,6 @@
 Here is an updated `README.md` file tailored for a Jupyter Notebook:
 
-```markdown
-# Solarpark investors analysis
+# Project Name
 
 This project performs web scraping, text processing, and sentiment analysis using Python. It utilizes several libraries such as `BeautifulSoup`, `TextBlob`, `spaCy`, and `requests`.
 
@@ -28,7 +27,7 @@ Follow these steps to set up the project on your local machine:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   source venv/bin/activate
    ```
 
 3. **Install the required packages**
@@ -39,27 +38,31 @@ Follow these steps to set up the project on your local machine:
    pip install -r requirements.txt
    ```
 
-4. **Download the spaCy language model**
+4. **Download the language models**
 
-   After installing the required packages, download the necessary spaCy language model:
+   After installing the required packages, download the necessaryc language models:
 
    ```bash
    python -m spacy download en_core_web_sm
+   python -m textblob.download_corpora
    ```
+   
+   
 
 5. **Launch Jupyter Notebook**
 
    ```bash
-   jupyter notebook
+   jupyter-notebook
    ```
 
 6. **Open the Notebook**
 
-   In the Jupyter Notebook interface, navigate to the notebook file (e.g., `your_notebook.ipynb`) and open it.
+   In the Jupyter Notebook interface, navigate to the notebook file (e.g., `Task1.ipynb`) and open it.
 
 ### Dependencies
 
 - beautifulsoup4==4.9.3
+- textblob==0.15.3
 - spacy==3.1.2
 - requests==2.25.1
 
@@ -68,9 +71,6 @@ Follow these steps to set up the project on your local machine:
 - If you encounter any issues, ensure that all dependencies are installed correctly.
 - For detailed usage and examples, refer to the cells within the Jupyter Notebook.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -79,6 +79,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - spaCy for advanced NLP
 - Requests for making HTTP requests
 
-```
 
-Replace `<repository-url>` and `<repository-directory>` with the actual URL and directory name of your repository. This guide assumes a basic structure and usage; you can expand upon it with more details about your project as needed.
